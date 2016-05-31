@@ -7,6 +7,13 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ElectionAudit", "ElectionAu
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{E9A64951-4A07-4751-9C45-30C28C323743}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Install", "Install", "{B698EE6E-149E-4ECA-B2C8-6A4CEC2A5AEC}"
+	ProjectSection(SolutionItems) = preProject
+		Setup\Release\Setup.msi = Setup\Release\Setup.msi
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample Ballots", "Sample Ballots", "{69434338-2B91-471F-AC0F-A769A846406E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CD_ROM|Any CPU = CD_ROM|Any CPU
